@@ -61,7 +61,7 @@ const AchievementsSection: FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Achievements and Recognition</h2>
           <p className="text-gray-600">
             At Orane, our passion for enhancing beauty and wellness skills has earned us top industry recognition. The awards
-            and accreditations we've received showcase our relentless pursuit of excellence.
+            and accreditations we have received showcase our relentless pursuit of excellence.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
