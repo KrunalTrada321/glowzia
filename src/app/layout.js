@@ -1,12 +1,13 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-
-const geistMono = Geist_Mono({
+ 
+const geistMono = Geist_Mono({ 
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
@@ -19,12 +20,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}>
-        <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}>
+        <nav className="sticky top-0 z-50 bg-[#242426] backdrop-blur-sm shadow-sm">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex justify-between items-center h-16">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-pink-600">Beauty Academy</h1>
+                <Image
+                src="/icon/1.png"
+                alt="icon"
+                width={100}
+                height={100}
+                className="w-full max-w-[100px] h-full max-h-[100px]"
+                />
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-center space-x-8">

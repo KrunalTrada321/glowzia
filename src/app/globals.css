@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import "tailwindcss";
 
 :root {
+  /* Light theme colors */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #242426;
+
+  /* Font variables */
+  --font1: 'Cinzel', serif;
+  --font2: 'Prata', serif;
 }
 
+/* Optional inline theme for Tailwind extensions */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font1);
+  --font-serif: var(--font2);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #242426;
     --foreground: #ededed;
   }
 }
@@ -22,5 +30,20 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font1); /* Default font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom font classes */
+.font-style-1 {
+  font-family: var(--font1);
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-style-2 {
+  font-family: var(--font2);
+  font-optical-sizing: auto;
+  font-style: normal;
 }

@@ -1,12 +1,16 @@
-'use client'  
+'use client';
 import Image from "next/image";
+import Header from "../components/Header";
+import CourseSection from "../components/CourseSection";
+import AchievementsSection from "../components/AchievementsSection";
+import WhyChooseSection from "../components/WhyChooseSection";
 
 import { useEffect } from 'react';
-
-export default function Home() {
+  
+export default function Home() {   
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
+      entries.forEach(entry => { 
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in');
           
@@ -40,8 +44,11 @@ export default function Home() {
 
 
   return (
-    <main>
-      {/* Hero Section */}
+    <main className="min-h-screen bg-white">
+      <Header />
+      <CourseSection />
+      <WhyChooseSection />
+      <AchievementsSection />
       {/* Stats Section */}
       <section className="py-16 bg-gradient-to-b from-pink-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
