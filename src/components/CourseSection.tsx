@@ -12,21 +12,21 @@ interface Course {
 const courses: Course[] = [
   {
     title: 'Hair course',
-    description: 'Embrace An Exciting Future with Combo Courses Have...',
-    imageUrl: '/images/cosmetology.jpg',
+    description: 'Master the art of hairstyling, cutting, coloring, and hair treatments with our professional Hair Course. Ideal for aspiring stylists, this course blends theory with hands-on training...',
+    imageUrl: '/img/hair-course.jpg',
     imageAlt: 'Cosmetology Course'
   },
   {
     title: 'Nails extension course ',
-    description: 'Nutrition Certification: Your Gateway to a Rewarding Career Have...',
-    imageUrl: '/images/nutrition.jpg',
+    description: 'Learn the latest techniques in nail art, gel, acrylic, and nail extensions. This course is perfect for those looking to start a career in nail styling or upgrade their salon skills with trending designs and professional tools.',
+    imageUrl: '/img/nail-course.jpg',
     imageAlt: 'Nutrition Course'
   },
   {
     title: 'Beauty course',
-    description: 'Nail Art Courses for Sure Career Success Nail art...',
-    imageUrl: '/images/nail.jpg',
-    imageAlt: 'Nail Course'
+    description: 'Gain in-depth knowledge of skincare, makeup, and facial treatments with our Beauty Course. Designed for beginners and professionals alike, it prepares you for a rewarding career...',
+    imageUrl: '/img/beauty-course.jpg',
+    imageAlt: 'Nail Course' 
   }
 
 ];
@@ -36,15 +36,15 @@ const courses: Course[] = [
 const coursesData: Course[] = [
   {
     title: 'Skin course',
-    description: 'Embrace An Exciting Future with Combo Courses Have...',
-    imageUrl: '/images/cosmetology.jpg',
+    description: 'Learn advanced skincare techniques including facials, clean-ups, skin analysis, and treatments for various skin types. This course is ideal for those aiming to become certified skincare experts in the beauty industry.',
+    imageUrl: '/img/skin.jpg',
     imageAlt: 'Cosmetology Course'
   },
   {
     title: 'Micro blading course ',
-    description: 'Nutrition Certification: Your Gateway to a Rewarding Career Have...',
-    imageUrl: '/images/nutrition.jpg',
-    imageAlt: 'Nutrition Course'
+    description: 'Master the art of semi-permanent eyebrow enhancement with our Microblading Course. Learn precise techniques for shaping, designing, and creating natural-looking brows to kickstart a professional career in cosmetic tattooing.',
+    imageUrl: '/img/microblading.jpg',
+    imageAlt: 'Nutrition Course' 
   },
 
 ];

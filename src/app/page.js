@@ -83,9 +83,9 @@ export default function Home() {
             {/* Left Column - Image */}
             <div className="relative fade-in">
               <Image
-                src="/beauty-professional.jpg"
+                src="/img/glowzia-main.jpg"
                 alt="Beauty Professional"
-                width={600}
+                width={600} 
                 height={600}
                 className="rounded-lg shadow-xl"
               />
