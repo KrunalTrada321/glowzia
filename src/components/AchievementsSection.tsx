@@ -55,11 +55,11 @@ const achievements = [
 
 const AchievementsSection: FC = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-pink-50 to-white">
+    <section className="py-16 bg-[#242426]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Achievements and Recognition</h2>
-          <p className="text-gray-600">
+          <h2 className="text-4xl font-bold mb-4 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent">Achievements and Recognition</h2>
+          <p className="text-white">
             At Orane, our passion for enhancing beauty and wellness skills has earned us top industry recognition. The awards
             and accreditations we have received showcase our relentless pursuit of excellence.
           </p>

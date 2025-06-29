@@ -11,23 +11,42 @@ interface Course {
 
 const courses: Course[] = [
   {
-    title: 'Combo Cosmetology',
+    title: 'Hair course',
     description: 'Embrace An Exciting Future with Combo Courses Have...',
     imageUrl: '/images/cosmetology.jpg',
     imageAlt: 'Cosmetology Course'
   },
   {
-    title: 'Nutrition',
+    title: 'Nails extension course ',
     description: 'Nutrition Certification: Your Gateway to a Rewarding Career Have...',
     imageUrl: '/images/nutrition.jpg',
     imageAlt: 'Nutrition Course'
   },
   {
-    title: 'Nail',
+    title: 'Beauty course',
     description: 'Nail Art Courses for Sure Career Success Nail art...',
     imageUrl: '/images/nail.jpg',
     imageAlt: 'Nail Course'
   }
+
+];
+
+
+
+const coursesData: Course[] = [
+  {
+    title: 'Skin course',
+    description: 'Embrace An Exciting Future with Combo Courses Have...',
+    imageUrl: '/images/cosmetology.jpg',
+    imageAlt: 'Cosmetology Course'
+  },
+  {
+    title: 'Micro blading course ',
+    description: 'Nutrition Certification: Your Gateway to a Rewarding Career Have...',
+    imageUrl: '/images/nutrition.jpg',
+    imageAlt: 'Nutrition Course'
+  },
+
 ];
 
 const CourseSection: FC = () => {
@@ -53,6 +72,23 @@ const CourseSection: FC = () => {
               />
             ))}
           </div>
+
+          {/* below cources */}
+          <div className='max-w-[865px] mx-auto  sm:px-6 '> 
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+              {coursesData.map((course, index) => (
+                <CourseCard
+                  key={index}
+                  title={course.title}
+                  description={course.description}
+                  imageUrl={course.imageUrl}
+                  imageAlt={course.imageAlt}
+                />
+              ))}
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
