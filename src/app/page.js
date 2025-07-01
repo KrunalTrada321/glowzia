@@ -54,7 +54,7 @@ export default function Home() {
       <section className="py-16 bg-[#242426]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent">Orane: A Respected Name Beauty & Wellness Skilling</h2>
+            <h2 className="text-4xl font-bold mb-4 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent">Glowzia: A Respected Name Beauty & Wellness Skilling</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
@@ -100,7 +100,7 @@ export default function Home() {
                 Do you want to learn the skills you need to start a successful career in the beauty industry?
               </p>
               <p className="text-lg text-white fade-in">
-                If so, Orane International can help you! We offer a variety of beauty courses that can help you launch your career in as little as 6 months or less.
+                If so, Glowzia International can help you! We offer a variety of beauty courses that can help you launch your career in as little as 6 months or less.
               </p>
               <p className="text-lg text-white fade-in">
                 Our courses are taught by experienced professionals who will share their knowledge and expertise with you. We focus on practical learning over theory, so you gain the skills you need to start working as a beauty professional right away.

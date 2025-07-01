@@ -24,7 +24,7 @@ export default function HeroSection() {
               Do you want to learn the skills you need to start a successful career in the beauty industry?
             </p>
             <p className="text-lg text-gray-600 fade-in">
-              If so, Orane International can help you! We offer a variety of beauty courses that can help you launch your career in as little as 6 months or less.
+              If so, Glowzia International can help you! We offer a variety of beauty courses that can help you launch your career in as little as 6 months or less.
             </p>
             <p className="text-lg text-gray-600 fade-in">
               Our courses are taught by experienced professionals who will share their knowledge and expertise with you. We focus on practical learning over theory, so you gain the skills you need to start working as a beauty professional right away.

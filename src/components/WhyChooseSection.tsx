@@ -11,7 +11,7 @@ const advantages: AdvantagePoint[] = [
   {
     number: 1,
     title: 'A Trusted Name',
-    description: 'Orane is NSDC-recognised and a Grade A training partner.'
+    description: 'Glowzia is NSDC-recognised and a Grade A training partner.'
   },
   {
     number: 2,
@@ -26,7 +26,7 @@ const advantages: AdvantagePoint[] = [
   {
     number: 4,
     title: 'International Presence',
-    description: 'Orane also has a beauty college in British Columbia, Canada, bringing global exposure to our students.'
+    description: 'Glowzia also has a beauty college in British Columbia, Canada, bringing global exposure to our students.'
   },
   {
     number: 5,
@@ -45,7 +45,7 @@ const WhyChooseSection: FC = () => {
     <section className="py-16 bg-[#242426]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl uppercase font-bold bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent mb-4 fade-in font-style-1">Why Choose Orane to Give Wings to Your Career?</h2>
+          <h2 className="text-4xl uppercase font-bold bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent mb-4 fade-in font-style-1">Why Choose Glowzia to Give Wings to Your Career?</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {advantages.map((advantage) => (

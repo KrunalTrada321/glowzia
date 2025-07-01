@@ -60,9 +60,9 @@ const AchievementsSection: FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent">Achievements and Recognition</h2>
           <p className="text-white">
-            At Orane, our passion for enhancing beauty and wellness skills has earned us top industry recognition. The awards
-            and accreditations we have received showcase our relentless pursuit of excellence.
-          </p>
+            At Glowzia, our passion for enhancing beauty and wellness skills has earned us top industry recognition. The awards
+            and accreditations we have received showcase our relentless pursuit of excellence & foreign certified teachers.
+          </p> 
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {achievements.map((achievement, index) => (

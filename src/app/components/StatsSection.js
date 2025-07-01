@@ -52,7 +52,7 @@ export default function StatsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4 fade-in">
-            Orane: A Respected Name Beauty & Wellness Skilling
+            Glowzia: A Respected Name Beauty & Wellness Skilling
           </h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
