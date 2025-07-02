@@ -10,33 +10,33 @@ interface AdvantagePoint {
 const advantages: AdvantagePoint[] = [
   {
     number: 1,
-    title: 'A Trusted Name',
-    description: 'Glowzia is NSDC-recognised and a Grade A training partner.'
+    title: 'Modern Curriculum',
+    description: 'Our courses are designed with current beauty industry trends to ensure students learn what really matters in today’s market.'
   },
   {
     number: 2,
-    title: 'Proven Success',
-    description: 'Over 120 academies and 100,000+ students trained across India.'
+    title: 'Experienced Trainers',
+    description: 'Our trainers bring real-world salon and makeup studio experience, giving students hands-on, practical learning.'
   },
   {
     number: 3,
-    title: 'CIDESCO-affiliated courses',
-    description: 'Earn globally recognized skills with CIDESCO-affiliated courses that open doors to international opportunities in the beauty and wellness industry.'
+    title: 'Focused on Career Skills',
+    description: 'Every course is tailored to develop real, job-ready skills needed to work in salons, spas, or even start your own venture.'
   },
   {
     number: 4,
-    title: 'International Presence',
-    description: 'Glowzia also has a beauty college in British Columbia, Canada, bringing global exposure to our students.'
+    title: 'Industry Exposure',
+    description: 'Workshops, guest sessions, and demo classes help students connect with professionals and build confidence.'
   },
   {
     number: 5,
-    title: 'Flexible Payment Plans',
-    description: 'With 0% EMI options, nothing is holding you back from starting your career.'
+    title: 'Easy Fee Plans & 50% Off',
+    description: 'Get 50% off on course fees for a limited time, along with flexible payment plans to make your learning journey stress-free.'
   },
   {
     number: 6,
     title: '100% Placement Assistance',
-    description: 'Get support to land your dream job in top brands and salons.'
+    description: 'Get placement support to launch your career with top salons and beauty brands in India and abroad.'
   }
 ];
 

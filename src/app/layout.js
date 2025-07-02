@@ -33,29 +33,13 @@ export default function RootLayout({ children }) {
                   className="w-full max-w-[100px] h-full max-h-[100px]"
                 />
               </div>
-              <div className="hidden md:block">
-                <div className="ml-10 flex items-center space-x-8">
-                  <a href="#" className="text-gray-700 hover:text-pink-600 transition-colors">Home</a>
-                  <a href="#" className="text-gray-700 hover:text-pink-600 transition-colors">About</a>
-                  <a href="#" className="text-gray-700 hover:text-pink-600 transition-colors">Courses</a>
-                  <a href="#" className="text-gray-700 hover:text-pink-600 transition-colors">Testimonials</a>
-                  <a href="#" className="text-gray-700 hover:text-pink-600 transition-colors">Contact</a>
-                </div>
-              </div>
-              <div className="md:hidden">
-                <button className="text-gray-700 hover:text-pink-600">
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
-              </div>
             </div>
           </div>
         </nav>
         {children}
         <footer className="bg-gradient-to-r from-[#DFBE69] to-[#CEAB45] border-t">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
                 <Image
                   src="/icon/black-icon.png"
@@ -66,7 +50,7 @@ export default function RootLayout({ children }) {
                 />
                 <p className="text-white mt-2">The Rediance Beauty</p>
               </div>
-              <div>
+              {/* <div>
                 <h4 className="text-sm font-semibold text-gray-900 mb-4">Quick Links</h4>
                 <ul className="space-y-2">
                   <li><a href="#" className="text-white">About Us</a></li>
@@ -74,7 +58,7 @@ export default function RootLayout({ children }) {
                   <li><a href="#" className="text-white">Testimonials</a></li>
                   <li><a href="#" className="text-white">Contact</a></li>
                 </ul>
-              </div>
+              </div> */}
               <div>
                 <h4 className="text-sm font-semibold text-gray-900 mb-4">Contact Info</h4>
                 <ul className="space-y-2 text-white">

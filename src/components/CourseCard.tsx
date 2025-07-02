@@ -21,8 +21,8 @@ const CourseCard: FC<CourseCardProps> = ({ title, description, imageUrl, imageAl
         />
       </div>
       <div className="p-6 bg-gradient-to-r from-[#DFBE69] to-[#CEAB45]">
-        <h3 className="text-xl font-semibold text-gray-900 mb-2 font-style-1">{title}</h3>
-        <p className="text-gray-600 mb-4 font-style-2">{description}</p>
+        <h3 className="text-xl font-semibold text-black mb-2 font-style-1">{title}</h3>
+        <p className="text-white mb-4 font-style-2">{description}</p>
       </div>
     </div>
   );

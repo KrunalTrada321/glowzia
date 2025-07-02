@@ -55,9 +55,9 @@ const CourseSection: FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent">
-            EXPLORE OUR COURSES
+            EXPLORE OUR COURSES 
           </h2>
-          <p className="text-xl text-white font-style-2">A Global Glory Of Your Ambitions.</p>
+          <p className="text-xl text-white font-style-2">Learn from internationally certified trainers with real-world expertise.</p>
         </div>
 
         <div className="relative">

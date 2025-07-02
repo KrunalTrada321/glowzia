@@ -7,21 +7,22 @@ import WhyChooseSection from "../components/WhyChooseSection";
 
 import { useEffect } from 'react';
 import StatsSection from "./components/StatsSection";
-  
-export default function Home() {   
+import Contact from "./components/contact";
+
+export default function Home() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => { 
+      entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in');
-          
+
           if (entry.target.classList.contains('counter')) {
             const target = parseInt(entry.target.getAttribute('data-target'));
             let count = 0;
             const duration = 2000;
             const increment = (target / duration) * 10;
             const suffix = entry.target.textContent.replace(/[0-9]/g, '');
-            
+
             const updateCount = () => {
               if (count < target) {
                 count = Math.min(count + increment, target);
@@ -31,7 +32,7 @@ export default function Home() {
                 entry.target.textContent = target + suffix;
               }
             };
-            
+
             updateCount();
           }
         }
@@ -74,7 +75,7 @@ export default function Home() {
         </div>
       </section>
 
-   
+
 
       {/* Hero Section */}
       <section className="relative bg-[#242426] py-20 sm:py-32">
@@ -85,12 +86,12 @@ export default function Home() {
               <Image
                 src="/img/glowzia-main.jpg"
                 alt="Beauty Professional"
-                width={600} 
+                width={600}
                 height={600}
                 className="rounded-lg shadow-xl"
               />
             </div>
-            
+
             {/* Right Column - Content */}
             <div className="space-y-6 text-left">
               <h1 className="text-4xl sm:text-5xl font-bold  font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent fade-in">
@@ -105,7 +106,7 @@ export default function Home() {
               <p className="text-lg text-white fade-in">
                 Our courses are taught by experienced professionals who will share their knowledge and expertise with you. We focus on practical learning over theory, so you gain the skills you need to start working as a beauty professional right away.
               </p>
-              
+
             </div>
           </div>
         </div>
@@ -179,16 +180,42 @@ export default function Home() {
                   <div>
                     <h4 className="font-semibold text-white">{testimonial.name}</h4>
                     {/* <p className="text-pink-600 text-sm">{testimonial.role}</p> */}
-                  </div> 
+                  </div>
                 </div>
-                
+
               </div>
             ))}
           </div>
         </div>
       </section>
 
-  
+      <section className="!pt-0 py-20 bg-[#242426]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center mb-12 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent fade-in">
+            Certified In
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[1, 2, 3].map((_, index) => (
+              <div
+                key={index}
+                className=" fade-in flex items-center justify-center"
+              >
+                <img
+                  src="/img/certificate.png"
+                  alt={`Certificate ${index + 1}`}
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+      <Contact />
+
+
 
       <style jsx global>{
         `
