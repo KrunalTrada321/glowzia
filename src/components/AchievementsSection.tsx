@@ -9,12 +9,12 @@ const achievements = [
     awardedBy: 'PwC'
   },
   {
-    title: 'Fastest Growing Academy of the Decade',
+    title: 'Fastest Growing Beauty Industry',
     description: '',
     awardedBy: 'The Beauty Polis'
   },  
   {
-    title: 'Best Education Institute',
+    title: 'Best Education Institute In Kohara Chandigarh Road',
     description: '',
     awardedBy: 'Rising Star of Asia'
   },

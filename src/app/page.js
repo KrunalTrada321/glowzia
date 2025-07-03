@@ -52,10 +52,10 @@ export default function Home() {
       <WhyChooseSection />
       <AchievementsSection />
       {/* Stats Section */}
-      <section className="py-16 bg-[#242426]">
+      {/* <section className="py-16 bg-[#242426]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent">Glowzia: A Respected Name Beauty & Wellness Skilling</h2>
+            <h2 className="text-4xl font-bold mb-4 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent">Glowzia: A Respected Name Beauty & Wellness </h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
@@ -73,7 +73,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 
@@ -101,7 +101,7 @@ export default function Home() {
                 Do you want to learn the skills you need to start a successful career in the beauty industry?
               </p>
               <p className="text-lg text-white fade-in">
-                If so, Glowzia International can help you! We offer a variety of beauty courses that can help you launch your career in as little as 6 months or less.
+                If so, Glowzia India can help you! We offer a variety of beauty courses that can help you launch your career in as little as 6 months or less.
               </p>
               <p className="text-lg text-white fade-in">
                 Our courses are taught by experienced professionals who will share their knowledge and expertise with you. We focus on practical learning over theory, so you gain the skills you need to start working as a beauty professional right away.
@@ -159,12 +159,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                name: 'Sarah J.',
+                name: 'Keyur J.',
                 role: 'Certified Makeup Artist',
                 quote: 'The comprehensive training I received at Beauty Academy transformed my passion into a successful career.'
               },
               {
-                name: 'Emily D.',
+                name: 'Akshay D.',
                 role: 'Professional Hair Stylist',
                 quote: 'The instructors are industry experts who truly care about student success. I learned so much more than I expected.'
               }
@@ -189,7 +189,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="!pt-0 py-20 bg-[#242426]">
+      {/* <section className="!pt-0 py-20 bg-[#242426]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center mb-12 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent fade-in">
             Certified In
@@ -210,7 +210,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       <Contact />

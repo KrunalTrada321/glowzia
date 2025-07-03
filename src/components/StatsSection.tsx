@@ -38,7 +38,7 @@ export default function StatsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 font-style-1 bg-gradient-to-r from-[#F8EDAD] to-[#CEAB45] bg-clip-text text-transparent">
-            Glowzia: A Respected Name Beauty & Wellness Skilling
+            Glowzia: A Respected Name Beauty & Wellness Skillin
           </h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

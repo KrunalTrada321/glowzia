@@ -1,4 +1,8 @@
 import Link from "next/link";
+import { ImLocation2 } from "react-icons/im";
+import { HiOutlineMail } from "react-icons/hi";
+import { MdCall } from "react-icons/md";
+
 
 // pages/contact.js
 export default function Contact() {
@@ -12,29 +16,50 @@ export default function Contact() {
                             Contact Information
                         </h2>
 
-                        <div className="flex items-start mb-6 space-x-4">
-                            <div className="bg-black text-blue-600 p-2 rounded-full">📍</div>
+                        <a
+                            href="https://maps.google.com/?q=30.869854,75.991028"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-start mb-6 space-x-4 cursor-pointer"
+                        >
+                            <div className="bg-black text-blue-600 p-2 rounded-full">
+                            <ImLocation2 className="text-white"/>
+                            </div>
                             <div>
                                 <h4 className="font-bold text-black">OUR OFFICE</h4>
-                                <p className="text-black">Ludhiana, Pujab, India</p>
+                                <p className="text-black">Ludhiana, Punjab, India</p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div className="flex items-start mb-6 space-x-4">
-                            <div className="bg-black text-blue-600 p-2 rounded-full">📧</div>
+
+                        <a
+                            href="mailto:glowziaindia@gmail.com"
+                            className="flex items-start mb-6 space-x-4 cursor-pointer"
+                        >
+                            <div className="bg-black text-blue-600 p-2 rounded-full">
+                            <HiOutlineMail className="text-white"/>
+                            </div>
                             <div>
                                 <h4 className="font-bold text-black">EMAIL US</h4>
                                 <p className="text-black">glowziaindia@gmail.com</p>
                             </div>
-                        </div>
+                        </a>
 
-                        <div className="flex items-start mb-6 space-x-4">
-                            <div className="bg-black text-blue-600 p-2 rounded-full">📞</div>
+
+                        <a
+                            href="tel:+919915120010"
+                            className="flex items-start mb-6 space-x-4 cursor-pointer"
+                        >
+                            <div className="bg-black text-blue-600 p-2 rounded-full">
+                            <MdCall className="text-white"/>
+                            </div>
                             <div>
                                 <h4 className="font-bold text-black">CALL US</h4>
                                 <p className="text-black">+91 99151-20010</p>
                             </div>
-                        </div>
+                        </a>
+
+
                     </div>
 
                     <Link href="tel:+919915120010">
