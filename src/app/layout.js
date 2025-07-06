@@ -38,10 +38,10 @@ export default function RootLayout({ children }) {
                 href="https://wa.me/919915120010"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="fixed right-8 bottom-5 z-50 flex items-center bg-gradient-to-r from-[#DFBE69] to-[#CEAB45] text-white px-4 py-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300"
+                className="fixed right-8 bottom-5 z-50 flex items-center bg-gradient-to-r from-[#25D366] to-[#25D366] text-white px-4 py-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300"
               >
                 <svg
-                  className="w-6 h-6 text-black"
+                  className="w-6 h-6 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
